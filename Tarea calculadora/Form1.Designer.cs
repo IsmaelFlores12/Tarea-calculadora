@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txbNum1 = new System.Windows.Forms.TextBox();
             this.txbnum2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.sumar = new System.Windows.Forms.Button();
+            this.restar = new System.Windows.Forms.Button();
+            this.multiplicar = new System.Windows.Forms.Button();
+            this.dividir = new System.Windows.Forms.Button();
+            this.residuo = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -72,55 +72,55 @@
             this.txbnum2.Size = new System.Drawing.Size(100, 22);
             this.txbnum2.TabIndex = 3;
             // 
-            // button1
+            // sumar
             // 
-            this.button1.Location = new System.Drawing.Point(186, 224);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Sumar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.sumar.Location = new System.Drawing.Point(186, 224);
+            this.sumar.Name = "sumar";
+            this.sumar.Size = new System.Drawing.Size(75, 23);
+            this.sumar.TabIndex = 4;
+            this.sumar.Text = "Sumar";
+            this.sumar.UseVisualStyleBackColor = true;
+            this.sumar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // restar
             // 
-            this.button2.Location = new System.Drawing.Point(301, 224);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "restar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.restar.Location = new System.Drawing.Point(301, 224);
+            this.restar.Name = "restar";
+            this.restar.Size = new System.Drawing.Size(75, 23);
+            this.restar.TabIndex = 5;
+            this.restar.Text = "restar";
+            this.restar.UseVisualStyleBackColor = true;
+            this.restar.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // multiplicar
             // 
-            this.button3.Location = new System.Drawing.Point(414, 224);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "multiplicar";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.multiplicar.Location = new System.Drawing.Point(414, 224);
+            this.multiplicar.Name = "multiplicar";
+            this.multiplicar.Size = new System.Drawing.Size(75, 23);
+            this.multiplicar.TabIndex = 6;
+            this.multiplicar.Text = "multiplicar";
+            this.multiplicar.UseVisualStyleBackColor = true;
+            this.multiplicar.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // dividir
             // 
-            this.button4.Location = new System.Drawing.Point(532, 224);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "dividir";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.dividir.Location = new System.Drawing.Point(532, 224);
+            this.dividir.Name = "dividir";
+            this.dividir.Size = new System.Drawing.Size(75, 23);
+            this.dividir.TabIndex = 7;
+            this.dividir.Text = "dividir";
+            this.dividir.UseVisualStyleBackColor = true;
+            this.dividir.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // residuo
             // 
-            this.button5.Location = new System.Drawing.Point(356, 275);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "residuo";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.residuo.Location = new System.Drawing.Point(356, 275);
+            this.residuo.Name = "residuo";
+            this.residuo.Size = new System.Drawing.Size(75, 23);
+            this.residuo.TabIndex = 8;
+            this.residuo.Text = "residuo";
+            this.residuo.UseVisualStyleBackColor = true;
+            this.residuo.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -138,11 +138,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.residuo);
+            this.Controls.Add(this.dividir);
+            this.Controls.Add(this.multiplicar);
+            this.Controls.Add(this.restar);
+            this.Controls.Add(this.sumar);
             this.Controls.Add(this.txbnum2);
             this.Controls.Add(this.txbNum1);
             this.Controls.Add(this.label2);
@@ -160,11 +160,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txbNum1;
         private System.Windows.Forms.TextBox txbnum2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button sumar;
+        private System.Windows.Forms.Button restar;
+        private System.Windows.Forms.Button multiplicar;
+        private System.Windows.Forms.Button dividir;
+        private System.Windows.Forms.Button residuo;
         private System.Windows.Forms.Button button6;
     }
 }
